@@ -7,11 +7,21 @@
 }
 
 body {
+
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     padding: 40px 20px;
     font-family: 'Roboto', sans-serif;
 }
+
+.info img {
+    width: 120px;        /* tamaño pequeño */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;  /* centrada */
+    border-radius: 8px;
+}
+
 
 h1 {
     text-align: center;
