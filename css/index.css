@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #202461;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;   /* esto evita que se vea estirado */
+    display: block;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0 15px;
+    margin-left: 25px;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Sour Gummy', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sour Gummy', cursive;
+    margin: 0;
+    color: #FFFFFF;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+}
+
+img {
+    width: 380px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.ad {
+    width: 500px;
+    height: 450px;
+}
